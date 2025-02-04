@@ -1,3 +1,4 @@
 [build]
-  publish = "out"  # This should point to the directory containing the final build
-  command = "npm run build"  # The build command (e.g., for Playwright or other frameworks)
+  base = "netlify"
+  publish = "netlify/out"
+  command = "npm run build"

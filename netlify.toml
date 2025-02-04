@@ -3,7 +3,7 @@
   publish = "out"  # The directory where your built files go (adjust as necessary)
   command = "npm run build"  # Your build command (or Playwright command, etc.)
 
-[build]
-  base = "netlify"
-  publish = "netlify/out"
-  command = "npm run build"
+  # For Netlify-specific configuration:
+  netlify_base = "netlify"  # Base directory for Netlify build
+  netlify_publish = "netlify/out"  # The output directory for Netlify build
+

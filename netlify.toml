@@ -1,7 +1,7 @@
 [build]
   base = "/"  # Base directory is the root of the repository
   publish = "out"  # The directory where your built files go (adjust as necessary)
-  command = "npm run build"  # Your build command (or Playwright command, etc.)
+  command = "npm run Star"  # Your build command (or Playwright command, etc.)
 
   # For Netlify-specific configuration:
   netlify_base = "netlify"  # Base directory for Netlify build
